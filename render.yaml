@@ -1,9 +1,8 @@
 services:
   - type: web
     name: my-pocketbase-chat
-    runtime: image
     image: 
-      url: docker.io/pockethost/pocketbase:latest
+      url: pockethost/pocketbase:latest
     plan: free
     envVars:
       - key: PORT
