@@ -3,7 +3,7 @@ services:
     name: my-pocketbase-chat
     runtime: image
     image:
-      url: pockethost/pocketbase:latest
+      url: ghcr.io/muchobien/pocketbase:latest
     plan: free
     envVars:
       - key: PORT
