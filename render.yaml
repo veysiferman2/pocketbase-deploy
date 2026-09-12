@@ -1,7 +1,8 @@
 services:
   - type: web
     name: my-pocketbase-chat
-    image: 
+    runtime: image
+    image:
       url: pockethost/pocketbase:latest
     plan: free
     envVars:
